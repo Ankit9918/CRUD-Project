@@ -3,5 +3,24 @@
     "express": "^5.1.0",
     "mongoose": "^8.13.1",
     "mongooses": "^1.0.0"
-  }
+  },
+  "name": "mongodb2",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankit9918/CRUD-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ankit9918/CRUD-Project/issues"
+  },
+  "homepage": "https://github.com/Ankit9918/CRUD-Project#readme",
+  "description": ""
 }
