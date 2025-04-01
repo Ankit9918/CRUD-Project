@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   
+</head>
+<body class="min-h-screen" >
+
+    <div class=" w-full h-full bg-zinc-900 text-white">
+        <a  class="nav mb-20 text-blue-500 block" href="/read">Read Data</a>
+        <h1 class="text-3xl tracking-tighter mb-3">Update User</h1>
+      
+
+       <form class="" action="/update/<%=user._id%>" method="post">
+        <input class="px-5 py-2 bg-transparent border-2 border-zinc-800 outline-none rounded-lg " type="text"  name="name" placeholder="Name" value="<%=user.name%>">
+        <input class="px-5 py-2 bg-transparent border-2 border-zinc-800 outline-none rounded-lg " type="text" name="email"  placeholder="email" value="<%=user.email%>">
+        <input class="px-5 py-2 bg-transparent border-2 border-zinc-800 outline-none rounded-lg " type="text" name="image"  placeholder="Imageurl" value="<%=user.image%>">
+        <input class="px-5 py-2 bg-yellow-500 border-2 border-zinc-800 outline-none rounded-lg " type="submit"   value="Update User">
+
+       </form>
+    </div>
+</body>
+</html>
